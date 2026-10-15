@@ -1,0 +1,17 @@
+node_modules/
+.memory-bridge/
+.file-agent/
+.env
+.env.*
+!.env.example
+*.log
+demo-project/
+runtime/
+my-project/
+core/node_modules/
+core/data/
+/SHA256SUMS.txt
+__pycache__/
+*.pyc
+.file-tools-test-*/
+.local-memory-test-*/

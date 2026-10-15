@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-10-15T07:19:17.412Z",
+  "accountLive": true,
+  "model": "deepseek-v4-flash",
+  "rounds": [
+    {
+      "stage": "A",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "elapsedMs": 9384,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "elapsedMs": 8655,
+      "passed": true
+    }
+  ],
+  "completedTurns": 2,
+  "contextChanged": true
+}

@@ -1,0 +1,15 @@
+{
+  "name": "local-memory-bridge",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Project memory and bounded local file tools for an authenticated DeepSeek Web session",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/ayase0307/local-memory-bridge.git" },
+  "homepage": "https://github.com/ayase0307/local-memory-bridge#readme",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test test/cli.test.js test/cli-chat.test.js test/server.test.js test/memory.test.js test/transport.test.js test/launchers.test.js test/file-tools.test.js test/file-agent.test.js",
+    "start": "node src/cli.js"
+  }
+}
