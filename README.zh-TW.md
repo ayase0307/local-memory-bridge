@@ -23,7 +23,7 @@
 
 Local Memory Bridge 把已登入的 DeepSeek 網頁會話接到本機工作區。每次呼叫模型前，重新讀取 `agent.md` 與 `memory.md`；模型提出檔案操作後，由本機程式驗證路徑與參數、執行允許的動作，並留下紀錄。
 
-**實際用途：**讀取專案筆記、建立摘要、修改一行狀態；換了對話後，仍能讀取已保存的專案背景。
+**實際用途：** 讀取專案筆記、建立摘要、修改一行狀態；換了對話後，仍能讀取已保存的專案背景。
 
 > [!IMPORTANT]
 > 本專案使用非官方的 DeepSeek 私有網頁介面，屬於實驗性整合。服務可用性、帳號限制與官方條款仍適用。專案上下文及工具讀取的檔案內容會送到模型供應商，使用前請閱讀 [安全與資料處理](SECURITY.md)。
@@ -43,7 +43,7 @@ Local Memory Bridge 把已登入的 DeepSeek 網頁會話接到本機工作區�
 
 ## 快速開始
 
-**環境需求：**Node.js 22 以上、Windows PowerShell，以及已安裝的 Chrome／Chromium。目前完成驗證的平台是 Windows。
+**環境需求：** Node.js 22 以上、Windows PowerShell，以及已安裝的 Chrome／Chromium。目前完成驗證的平台是 Windows。
 
 ### 1. 下載 repo，安裝網頁核心的 runtime
 
